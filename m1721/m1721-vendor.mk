@@ -6,7 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m1721
 
 PRODUCT_COPY_FILES += \
-    vendor/meizu/m1721/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
+    vendor/meizu/m1721/proprietary/vendor/bin/goodixfingerprintd:$(TARGET_COPY_OUT_VENDOR)/bin/goodixfingerprintd \
     vendor/meizu/m1721/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/meizu/m1721/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/meizu/m1721/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
@@ -35,12 +35,11 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
     vendor/meizu/m1721/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/hw/fingerprint.searchf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.searchf.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint.default.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/libfp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/libfpnav.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav.so \
-    vendor/meizu/m1721/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/hw/fingerprint.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8953.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
+    vendor/meizu/m1721/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
     vendor/meizu/m1721/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
     vendor/meizu/m1721/proprietary/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpencoder.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
@@ -253,14 +252,14 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/firmware/crus_gb_config_default.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_gb_config_default.bin \
     vendor/meizu/m1721/proprietary/vendor/firmware/crus_gb_config_new_rx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_gb_config_new_rx.bin \
     vendor/meizu/m1721/proprietary/vendor/firmware/crus_gb_config_new_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crus_gb_config_new_tx.bin \
-    vendor/meizu/m1721/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
-    vendor/meizu/m1721/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
-    vendor/meizu/m1721/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
-    vendor/meizu/m1721/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
-    vendor/meizu/m1721/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
-    vendor/meizu/m1721/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
-    vendor/meizu/m1721/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
-    vendor/meizu/m1721/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
+    vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.b00 \
+    vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.b01 \
+    vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.b02 \
+    vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.b03 \
+    vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.b04 \
+    vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.b05 \
+    vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.b06 \
+    vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.mdt \
     vendor/meizu/m1721/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/meizu/m1721/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/meizu/m1721/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
