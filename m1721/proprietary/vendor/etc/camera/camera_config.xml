@@ -101,8 +101,8 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode> 
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.288</FocalLength>
-      <FNumber>1.8</FNumber>
+      <FocalLength>3.94</FocalLength>
+      <FNumber>1.9</FNumber>
       <TotalFocusDistance>3.496</TotalFocusDistance>
       <HorizontalViewAngle>69.89</HorizontalViewAngle>
       <VerticalViewAngle>51.7</VerticalViewAngle>
@@ -149,8 +149,8 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.73</FocalLength>
-      <FNumber>2.2</FNumber>
+      <FocalLength>3.519</FocalLength>
+      <FNumber>2.0</FNumber>
       <TotalFocusDistance>1.9</TotalFocusDistance>
       <HorizontalViewAngle>64.9</HorizontalViewAngle>
       <VerticalViewAngle>51.6</VerticalViewAngle>
@@ -172,8 +172,8 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>2.42</FocalLength>
-      <FNumber>2.2</FNumber>
+      <FocalLength>2.47</FocalLength>
+      <FNumber>2.0</FNumber>
       <TotalFocusDistance>1.98</TotalFocusDistance>
       <HorizontalViewAngle>70.4</HorizontalViewAngle>
       <VerticalViewAngle>46.2</VerticalViewAngle> 
