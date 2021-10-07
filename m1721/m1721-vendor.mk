@@ -98,14 +98,21 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/firmware/gxf/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxf/goodixfp.mdt \
     vendor/meizu/m1721/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/meizu/m1721/proprietary/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/meizu/m1721/proprietary/vendor/lib/hw/camera.vendor.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8953.so \
     vendor/meizu/m1721/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/meizu/m1721/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libarcsoft_makeup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_makeup.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libfilter_effects.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilter_effects.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libmeizucamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmeizucamera.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libphoto_timestamp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libphoto_timestamp.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/meizu/m1721/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libcam.common.meizu.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.common.meizu.platform.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libcam.common.meizu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.common.meizu.so \
     vendor/meizu/m1721/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/meizu/m1721/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/meizu/m1721/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
