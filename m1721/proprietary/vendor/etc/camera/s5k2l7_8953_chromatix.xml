@@ -117,20 +117,7 @@ special_mode_mask values:
       <A3Preview>s5k2l7_8953_default_preview_ak7371</A3Preview>
       <A3Video>s5k2l7_8953_default_video_ak7371</A3Video>
     </ChromatixName>
-    <!--add by allenyao-->
     <ChromatixName sensor_resolution_index="3" special_mode_mask="0">
-      <ISPPreview>s5k2l7_8953_preview</ISPPreview>
-      <ISPSnapshot>s5k2l7_8953_preview</ISPSnapshot>
-      <ISPVideo>s5k2l7_8953_preview</ISPVideo>
-      <CPPPreview>s5k2l7_8953_cpp_preview</CPPPreview>
-      <CPPSnapshot>s5k2l7_8953_cpp_snapshot</CPPSnapshot>
-      <CPPVideo>s5k2l7_8953_cpp_video</CPPVideo>
-      <CPPLiveshot>s5k2l7_8953_cpp_liveshot</CPPLiveshot>
-      <A3Preview>s5k2l7_8953_default_preview_ak7371</A3Preview>
-      <A3Video>s5k2l7_8953_default_video_ak7371</A3Video>
-    </ChromatixName>
-    <!--end-->
-    <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
       <ISPPreview>s5k2l7_8953_hfr_60</ISPPreview>
       <ISPSnapshot>s5k2l7_8953_hfr_60</ISPSnapshot>
       <ISPVideo>s5k2l7_8953_hfr_60</ISPVideo>
@@ -141,7 +128,7 @@ special_mode_mask values:
       <A3Preview>s5k2l7_8953_hfr_60_ak7371</A3Preview>
       <A3Video>s5k2l7_8953_hfr_60_ak7371</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="5" special_mode_mask="0">
+    <ChromatixName sensor_resolution_index="4" special_mode_mask="0">
       <ISPPreview>s5k2l7_8953_hfr_90</ISPPreview>
       <ISPSnapshot>s5k2l7_8953_hfr_90</ISPSnapshot>
       <ISPVideo>s5k2l7_8953_hfr_90</ISPVideo>
@@ -152,7 +139,7 @@ special_mode_mask values:
       <A3Preview>s5k2l7_8953_hfr_90_ak7371</A3Preview>
       <A3Video>s5k2l7_8953_hfr_90_ak7371</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="6" special_mode_mask="0">
+    <ChromatixName sensor_resolution_index="5" special_mode_mask="0">
       <ISPPreview>s5k2l7_8953_hfr_120</ISPPreview>
       <ISPSnapshot>s5k2l7_8953_hfr_120</ISPSnapshot>
       <ISPVideo>s5k2l7_8953_hfr_120</ISPVideo>
