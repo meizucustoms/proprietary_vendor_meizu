@@ -461,6 +461,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera_s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera_s5k3p8sp03.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p8sp03.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera_s5k4e8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4e8.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
