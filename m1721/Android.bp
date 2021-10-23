@@ -145,6 +145,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "IWlanService",
+	owner: "meizu",
+	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "TimeService",
 	owner: "meizu",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
@@ -189,6 +200,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "imssettings",
+	owner: "meizu",
+	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "dpmserviceapp",
 	owner: "meizu",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
@@ -224,6 +246,47 @@ android_app_import {
 	system_ext_specific: true,
 }
 
+dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "meizu",
+	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "meizu",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "meizu",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "embmslibrary",
+	owner: "meizu",
+	jars: ["proprietary/system_ext/framework/embmslibrary.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "meizu",
+	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "qti-telephony-common",
+	owner: "meizu",
+	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
+	system_ext_specific: true,
+}
+
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.1-service-qti",
 	owner: "meizu",
@@ -256,6 +319,9 @@ cc_prebuilt_binary {
 	owner: "meizu",
 	srcs: ["proprietary/bin/chargeonlymode"],
 	check_elf_files: false,
+	strip: {
+		none: true,
+	},
 	prefer: true,
 }
 
