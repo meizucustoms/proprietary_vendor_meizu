@@ -260,13 +260,6 @@ dex_import {
 	system_ext_specific: true,
 }
 
-dex_import {
-	name: "qti-telephony-common",
-	owner: "meizu",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
-	system_ext_specific: true,
-}
-
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.1-service-qti",
 	owner: "meizu",
