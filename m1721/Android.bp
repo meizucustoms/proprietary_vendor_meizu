@@ -227,12 +227,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "com.qti.snapdragon.sdk.display",
-	owner: "meizu",
-	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
-}
-
-dex_import {
 	name: "com.qti.dpmframework",
 	owner: "meizu",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
