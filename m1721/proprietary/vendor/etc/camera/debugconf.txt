@@ -28,19 +28,19 @@
 ;   low     - verbose logging
 ;   debug   - debug logging level
 ;
-cam_dbglevel=error
-mct_dbglevel=error
-sensor_dbglevel=error
-iface_dbglevel=error
-isp_dbglevel=error
-stats_dbglevel=error
-pproc_dbglevel=warn
-imglib_dbglevel=error
-cpp_dbglevel=warn
-hal_dbglevel=error
-jpeg_dbglevel=error
-c2d_dbglevel=error
-shim_dbglevel=error
+cam_dbglevel=debug
+mct_dbglevel=debug
+sensor_dbglevel=debug
+iface_dbglevel=debug
+isp_dbglevel=debug
+stats_dbglevel=debug
+pproc_dbglevel=debug
+imglib_dbglevel=debug
+cpp_dbglevel=debug
+hal_dbglevel=debug
+jpeg_dbglevel=debug
+c2d_dbglevel=debug
+shim_dbglevel=debug
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
