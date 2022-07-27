@@ -95,12 +95,31 @@ special_mode_mask values:
       <A3Preview>s5k3p3sm_stech_fullsize_preview_3a</A3Preview>
       <A3Video>s5k3p3sm_stech_fullsize_video_3a</A3Video>
     </ChromatixName>
+        <ChromatixName sensor_resolution_index="0" special_mode_mask="SCENE_SUPERNIGHT_MODE|">
+      <ISPPreview>s5k3p3sm_stech_snapshot</ISPPreview>
+      <ISPSnapshot>s5k3p3sm_stech_snapshot</ISPSnapshot>
+      <ISPVideo>s5k3p3sm_stech_snapshot</ISPVideo>
+      <CPPPreview>s5k3p3sm_stech_cpp_preview</CPPPreview>
+      <CPPSnapshot>s5k3p3sm_stech_cpp_snapshot_night</CPPSnapshot>
+      <A3Preview>s5k3p3sm_stech_fullsize_preview_3a</A3Preview>
+      <A3Video>s5k3p3sm_stech_fullsize_video_3a</A3Video>
+    </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
       <ISPPreview>s5k3p3sm_stech_default_video</ISPPreview>
       <ISPSnapshot>s5k3p3sm_stech_default_video</ISPSnapshot>
       <ISPVideo>s5k3p3sm_stech_default_video</ISPVideo>
       <CPPPreview>s5k3p3sm_stech_cpp_preview</CPPPreview>
       <CPPSnapshot>s5k3p3sm_stech_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>s5k3p3sm_stech_cpp_video</CPPVideo>
+      <CPPLiveshot>s5k3p3sm_stech_cpp_liveshot</CPPLiveshot>
+      <A3Preview>s5k3p3sm_stech_default_preview_3a</A3Preview>
+      <A3Video>s5k3p3sm_stech_default_video_3a</A3Video>
+    </ChromatixName>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="SCENE_SUPERNIGHT_MODE|">
+      <ISPPreview>s5k3p3sm_stech_default_video</ISPPreview>
+      <ISPSnapshot>s5k3p3sm_stech_default_video</ISPSnapshot>
+      <CPPPreview>s5k3p3sm_stech_cpp_preview</CPPPreview>
+      <CPPSnapshot>s5k3p3sm_stech_cpp_snapshot_night</CPPSnapshot>
       <CPPVideo>s5k3p3sm_stech_cpp_video</CPPVideo>
       <CPPLiveshot>s5k3p3sm_stech_cpp_liveshot</CPPLiveshot>
       <A3Preview>s5k3p3sm_stech_default_preview_3a</A3Preview>

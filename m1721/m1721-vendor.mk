@@ -1615,6 +1615,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_qtech_cpp_liveshot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_qtech_cpp_preview.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot_night.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot_night.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot_remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_qtech_cpp_snapshot_remosaic.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_qtech_cpp_video.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_qtech_default_preview_3a.so \
@@ -1630,6 +1631,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_stech_cpp_liveshot.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_stech_cpp_preview.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot_night.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot_night.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot_remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_stech_cpp_snapshot_remosaic.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_stech_cpp_video.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_s5k3p3sm_stech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sm_stech_default_preview_3a.so \
